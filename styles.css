@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "iconmagic";
+  src:url("fonts/iconmagic.eot");
+  src:url("fonts/iconmagic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/iconmagic.woff") format("woff"),
+    url("fonts/iconmagic.ttf") format("truetype"),
+    url("fonts/iconmagic.svg#iconmagic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "iconmagic" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "iconmagic" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bar:before {
+  content: "a";
+}
+.icon-basketball:before {
+  content: "b";
+}
+.icon-bbq:before {
+  content: "c";
+}
+.icon-beach-club:before {
+  content: "d";
+}
+.icon-changing-room:before {
+  content: "e";
+}
+.icon-cinema:before {
+  content: "f";
+}
+.icon-airport:before {
+  content: "g";
+}
+.icon-bank:before {
+  content: "h";
+}
+.icon-gas-station:before {
+  content: "i";
+}
+.icon-hospital:before {
+  content: "j";
+}
+.icon-mall:before {
+  content: "k";
+}
+.icon-concierge:before {
+  content: "l";
+}
+.icon-equipment-rental:before {
+  content: "m";
+}
+.icon-rubbish:before {
+  content: "n";
+}
+.icon-restaurant:before {
+  content: "o";
+}
+.icon-property-management:before {
+  content: "p";
+}
+.icon-minimarket:before {
+  content: "q";
+}
+.icon-medical-facility:before {
+  content: "r";
+}
+.icon-laundry:before {
+  content: "s";
+}
+.icon-hotel:before {
+  content: "t";
+}
+.icon-helicopter:before {
+  content: "u";
+}
+.icon-heated-pool:before {
+  content: "v";
+}
+.icon-gym:before {
+  content: "w";
+}
+.icon-golf:before {
+  content: "x";
+}
+.icon-garden:before {
+  content: "y";
+}
+.icon-security:before {
+  content: "z";
+}
+.icon-soccer:before {
+  content: "A";
+}
+.icon-spa:before {
+  content: "B";
+}
+.icon-stable:before {
+  content: "C";
+}
+.icon-storage:before {
+  content: "D";
+}
+.icon-pool:before {
+  content: "E";
+}
+.icon-tennis:before {
+  content: "F";
+}
+.icon-transportation:before {
+  content: "G";
+}
+.icon-volleyball:before {
+  content: "H";
+}
+.icon-game-room:before {
+  content: "I";
+}
