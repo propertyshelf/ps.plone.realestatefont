@@ -3,8 +3,8 @@
 
 from setuptools import setup, find_packages
 
-version = '0.1dev'
-description = 'Propertyshelf IconMagic Font.'
+version = '0.1'
+description = 'IconMagic Font by propertyshelf'
 long_description = ('\n'.join([
     open('README.rst').read(),
     open('CHANGES.rst').read(),
