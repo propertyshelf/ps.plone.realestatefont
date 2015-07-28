@@ -18,14 +18,11 @@
   <includeDependencies package="." />
   <include file="profiles.zcml" />
 
-
-  <!-- Register the fonts theme resources. -->
-  <!-- =================================== -->
-  <plone:static
+  <!-- Publish static files -->
+  <browser:resourceDirectory
+      name="ps.fonts.iconmagic"
       directory="fonts_resources"
-      type="theme"
       />
-
 
   <!-- Register z4c.jbot template overrides. -->
   <!-- ===================================== -->
