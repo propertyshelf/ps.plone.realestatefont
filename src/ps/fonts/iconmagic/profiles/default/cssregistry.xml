@@ -1,18 +1,15 @@
 <?xml version="1.0"?>
 <object name="portal_css">
-
-  <!--
-  <stylesheet title=""
-    id="++theme++ps.fonts.iconmagic/static/main.css"
-    media="screen"
+  <stylesheet title="IconMagic Font styles"
+    id="++resource++ps.fonts.iconmagic/styles.css"
+    media="all"
     rel="stylesheet"
     rendering="import"
     cacheable="True"
     compression="safe"
-    cookable="True"
+    cookable="False"
     enabled="1"
     expression=""
+    applyPrefix="True"
     />
-  -->
-
 </object>
