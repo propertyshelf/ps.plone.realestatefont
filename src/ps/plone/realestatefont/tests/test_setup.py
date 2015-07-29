@@ -44,24 +44,7 @@ class TestSetup(unittest.TestCase):
     def test_addon_layer(self):
         """Validate that the browserlayer for our product is installed."""
         layers = [l.getName() for l in registered_layers()]
-        self.assertIn('IPsPloneRealestatefontLayer', layers)
-
-    # def test_cssregistry(self):
-    #     """Validate the CSS file registration."""
-    #     resource_ids = self.portal.portal_css.getResourceIds()
-    #     for id in CSS:
-    #         self.assertIn(id, resource_ids, '{0} not installed'.format(id))
-
-    # def test_jsregistry(self):
-    #     """Validate the JS file registration."""
-    #     resource_ids = self.portal.portal_javascripts.getResourceIds()
-    #     for id in JS:
-    #         self.assertIn(id, resource_ids, '{0} not installed'.format(id))
-
-    def test_plone_app_theming_installed(self):
-        """Validate that plone.app.theming is installed."""
-        qi = self.portal.portal_quickinstaller
-        self.assertTrue(qi.isProductInstalled('plone.app.theming'))
+        self.assertIn('IRealestatefontLayer', layers)
 
 
 class UninstallTestCase(unittest.TestCase):
@@ -84,22 +67,4 @@ class UninstallTestCase(unittest.TestCase):
     def test_addon_layer_removed(self):
         """Validate that the browserlayer is removed."""
         layers = [l.getName() for l in registered_layers()]
-        self.assertNotIn('IPsPloneRealestatefontLayer', layers)
-
-    # def test_cssregistry(self):
-    #     """Validate the CSS file unregistration."""
-    #     resource_ids = self.portal.portal_css.getResourceIds()
-    #     for id in CSS:
-    #         self.assertNotIn(
-    #             id, resource_ids,
-    #             '{0} is still installed'.format(id),
-    #         )
-
-    # def test_jsregistry(self):
-    #     """Validate the JS file unregistration."""
-    #     resource_ids = self.portal.portal_javascripts.getResourceIds()
-    #     for id in JS:
-    #         self.assertNotIn(
-    #             id, resource_ids,
-    #             '{0} is still installed'.format(id),
-    #         )
+        self.assertNotIn('IRealestatefontLayer', layers)
