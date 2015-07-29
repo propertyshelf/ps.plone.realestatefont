@@ -1,0 +1,35 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="ps.plone.realestatefont">
+
+  <five:registerPackage package="." initialize=".initialize" />
+
+  <!-- Register i18n support. -->
+  <!-- ====================== -->
+  <i18n:registerTranslations directory="locales" />
+
+
+  <!-- Include package dependencies. -->
+  <!-- ============================= -->
+  <includeDependencies package="." />
+  <include file="profiles.zcml" />
+
+  <!-- Publish static files -->
+  <browser:resourceDirectory
+      name="ps.plone.realestatefont"
+      directory="fonts_resources"
+      />
+
+  <!-- Register z4c.jbot template overrides. -->
+  <!-- ===================================== -->
+  <include package="z3c.jbot" />
+  <browser:jbot
+      directory="template_overrides"
+      layer=".interfaces.IRealestatefontLayer"
+      />
+
+</configure>

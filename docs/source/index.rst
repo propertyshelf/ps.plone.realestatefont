@@ -1,5 +1,5 @@
 ****************************
-Propertyshelf IconMagic Font
+Propertyshelf RealEstate Font
 ****************************
 
 .. only:: html

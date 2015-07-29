@@ -1,4 +1,4 @@
-IconMagic Font (ps.fonts.iconmagic)
+RealEstate Font (ps.plone.realestatefont)
 ===================================
 
 This is a font of svg based icons. It is intended to use with propertyshelfs MLS Developments embedding. 

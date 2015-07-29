@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-"""Setup for ps.fonts.iconmagic package."""
+"""Setup for ps.plone.realestatefont package."""
 
 from setuptools import setup, find_packages
 
 version = '0.2.dev0'
-description = 'IconMagic Font by propertyshelf'
+description = 'RealEstate Font by propertyshelf'
 long_description = ('\n'.join([
     open('README.rst').read(),
     open('CHANGES.rst').read(),
@@ -18,7 +18,7 @@ install_requires = [
 ]
 
 setup(
-    name='ps.fonts.iconmagic',
+    name='ps.plone.realestatefont',
     version=version,
     description=description,
     long_description=long_description,
@@ -39,8 +39,8 @@ setup(
     keywords='plone fonts',
     author='Propertyshelf, Inc.',
     author_email='development@propertyshelf.com',
-    url='https://github.com/propertyshelf/ps.fonts.iconmagic',
-    download_url='http://pypi.python.org/pypi/ps.fonts.iconmagic',
+    url='https://github.com/propertyshelf/ps.plone.realestatefont',
+    download_url='http://pypi.python.org/pypi/ps.plone.realestatefont',
     license='GPL',
     packages=find_packages('src', exclude=['ez_setup']),
     package_dir={'': 'src'},

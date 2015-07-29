@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<layers>
-  <layer
-      name="ps.fonts.iconmagic"
-      interface="ps.fonts.iconmagic.interfaces.IPsfontsIconmagicLayer"
-      />
-</layers>

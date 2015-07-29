@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<layers>
+  <layer
+      name="ps.plone.realestatefont"
+      interface="ps.plone.realestatefont.interfaces.IRealestatefontLayer"
+      />
+</layers>
