@@ -41,22 +41,23 @@
 .icon-bar:before {
   content: "a";
 }
-.icon-basketball:before {
+.icon-basketball:before,
+.icon-basketball_court:before {
   content: "b";
 }
 .icon-bbq:before {
   content: "c";
 }
 .icon-beach-club:before,
-.icon-beach_club:before
- {
+.icon-beach_club:before{
   content: "d";
 }
 .icon-changing-room:before,
-.icon-changing_room:before  {
+.icon-changing_rooms:before  {
   content: "e";
 }
-.icon-cinema:before {
+.icon-cinema:before,
+.icon-entertainment_cinema {
   content: "f";
 }
 .icon-airport:before {
@@ -94,12 +95,12 @@
 .icon-property_management:before{
   content: "p";
 }
-.icon-minimarket:before {
+.icon-minimarket:before,
+.icon-mini_market:before {
   content: "k";
 }
 .icon-medical-facility:before,
-.icon-medical_facility:before
-{
+.icon-medical_facility:before{
   content: "r";
 }
 .icon-laundry:before,
@@ -109,7 +110,8 @@
 .icon-hotel:before {
   content: "t";
 }
-.icon-helicopter:before {
+.icon-helicopter:before,
+.icon-helicopter_pad:before {
   content: "u";
 }
 .icon-heated-pool:before,
@@ -119,7 +121,8 @@
 .icon-gym:before {
   content: "w";
 }
-.icon-golf:before {
+.icon-golf:before,
+.icon-golf_course:before {
   content: "x";
 }
 .icon-garden:before,
@@ -137,10 +140,12 @@
 .icon-spa:before {
   content: "B";
 }
-.icon-stable:before {
+.icon-stable:before,
+.icon-stables:before {
   content: "C";
 }
-.icon-storage:before {
+.icon-storage:before,
+.icon-storage_lockers:before {
   content: "D";
 }
 .icon-pool:before {
@@ -150,12 +155,12 @@
 .icon-tennis_court:before {
   content: "F";
 }
-.icon-transportation:before {
+.icon-transportation:before,
+.icon-valet:before {
   content: "G";
 }
 .icon-volleyball:before,
-.icon-volleyball_court:before
-{
+.icon-volleyball_court:before {
   content: "H";
 }
 .icon-game-room:before,
