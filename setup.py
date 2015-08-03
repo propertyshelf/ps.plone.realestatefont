@@ -3,7 +3,7 @@
 
 from setuptools import setup, find_packages
 
-version = '0.3.dev1'
+version = '0.3.dev2'
 description = 'RealEstate Font by propertyshelf'
 long_description = ('\n'.join([
     open('README.rst').read(),
