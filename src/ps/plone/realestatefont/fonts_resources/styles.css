@@ -25,8 +25,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
+[class^="icon_re-"]:before,
+[class*=" icon_re-"]:before {
   font-family: "iconmagic" !important;
   font-style: normal !important;
   font-weight: normal !important;
@@ -38,133 +38,133 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-bar:before {
+.icon_re-bar:before {
   content: "a";
 }
-.icon-basketball:before,
-.icon-basketball_court:before {
+.icon_re-basketball:before,
+.icon_re-basketball_court:before {
   content: "b";
 }
-.icon-bbq:before {
+.icon_re-bbq:before {
   content: "c";
 }
-.icon-beach-club:before,
-.icon-beach_club:before{
+.icon_re-beach-club:before,
+.icon_re-beach_club:before{
   content: "d";
 }
-.icon-changing-room:before,
-.icon-changing_rooms:before  {
+.icon_re-changing-room:before,
+.icon_re-changing_rooms:before  {
   content: "e";
 }
-.icon-cinema:before,
-.icon-entertainment_cinema {
+.icon_re-cinema:before,
+.icon_re-entertainment_cinema {
   content: "f";
 }
-.icon-airport:before {
+.icon_re-airport:before {
   content: "g";
 }
-.icon-bank:before {
+.icon_re-bank:before {
   content: "h";
 }
-.icon-gas-station:before,
-.icon-gas_station:before {
+.icon_re-gas-station:before,
+.icon_re-gas_station:before {
   content: "i";
 }
-.icon-hospital:before {
+.icon_re-hospital:before {
   content: "j";
 }
-.icon-mall:before {
+.icon_re-mall:before {
   content: "k";
 }
-.icon-concierge:before {
+.icon_re-concierge:before {
   content: "l";
 }
-.icon-equipment-rental:before,
-.icon-equipment_rental:before,
-.icon-activities_equipment:before{
+.icon_re-equipment-rental:before,
+.icon_re-equipment_rental:before,
+.icon_re-activities_equipment:before{
   content: "m";
 }
-.icon-rubbish:before,
-.icon-trash_collection:before {
+.icon_re-rubbish:before,
+.icon_re-trash_collection:before {
   content: "n";
 }
-.icon-restaurant:before {
+.icon_re-restaurant:before {
   content: "o";
 }
-.icon-property-management:before,
-.icon-property_management:before{
+.icon_re-property-management:before,
+.icon_re-property_management:before{
   content: "p";
 }
-.icon-minimarket:before,
-.icon-mini_market:before {
+.icon_re-minimarket:before,
+.icon_re-mini_market:before {
   content: "k";
 }
-.icon-medical-facility:before,
-.icon-medical_facility:before{
+.icon_re-medical-facility:before,
+.icon_re-medical_facility:before{
   content: "r";
 }
-.icon-laundry:before,
-.icon-laundry_facility:before {
+.icon_re-laundry:before,
+.icon_re-laundry_facility:before {
   content: "s";
 }
-.icon-hotel:before {
+.icon_re-hotel:before {
   content: "t";
 }
-.icon-helicopter:before,
-.icon-helicopter_pad:before {
+.icon_re-helicopter:before,
+.icon_re-helicopter_pad:before {
   content: "u";
 }
-.icon-heated-pool:before,
-.icon-heated_pool:before {
+.icon_re-heated-pool:before,
+.icon_re-heated_pool:before {
   content: "v";
 }
-.icon-gym:before {
+.icon_re-gym:before {
   content: "w";
 }
-.icon-golf:before,
-.icon-golf_course:before {
+.icon_re-golf:before,
+.icon_re-golf_course:before {
   content: "x";
 }
-.icon-garden:before,
-.icon-gardens:before
+.icon_re-garden:before,
+.icon_re-gardens:before
 {
   content: "y";
 }
-.icon-security:before {
+.icon_re-security:before {
   content: "z";
 }
-.icon-soccer:before,
-.icon-soccer_field:before {
+.icon_re-soccer:before,
+.icon_re-soccer_field:before {
   content: "A";
 }
-.icon-spa:before {
+.icon_re-spa:before {
   content: "B";
 }
-.icon-stable:before,
-.icon-stables:before {
+.icon_re-stable:before,
+.icon_re-stables:before {
   content: "C";
 }
-.icon-storage:before,
-.icon-storage_lockers:before {
+.icon_re-storage:before,
+.icon_re-storage_lockers:before {
   content: "D";
 }
-.icon-pool:before {
+.icon_re-pool:before {
   content: "E";
 }
-.icon-tennis:before,
-.icon-tennis_court:before {
+.icon_re-tennis:before,
+.icon_re-tennis_court:before {
   content: "F";
 }
-.icon-transportation:before,
-.icon-valet:before {
+.icon_re-transportation:before,
+.icon_re-valet:before {
   content: "G";
 }
-.icon-volleyball:before,
-.icon-volleyball_court:before {
+.icon_re-volleyball:before,
+.icon_re-volleyball_court:before {
   content: "H";
 }
-.icon-game-room:before,
-.icon-game_room:before,
-.icon-games_room:before {
+.icon_re-game-room:before,
+.icon_re-game_room:before,
+.icon_re-games_room:before {
   content: "I";
 }
