@@ -102,6 +102,14 @@ To enable this package in a buildout-based installation:
     eggs =
         ps.plone.realestatefont
 
+#. If you are using Plone, you might want to add the ``plone`` extra::
+
+    [buildout]
+    ...
+    eggs =
+        ps.plone.realestatefont [plone]
+
+
 After updating the configuration you need to run ''bin/buildout'', which will
 take care of updating your system.
 
