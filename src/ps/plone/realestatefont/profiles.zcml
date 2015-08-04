@@ -8,7 +8,7 @@
   <!-- ====================== -->
   <genericsetup:registerProfile
       name="default"
-      title="Propertyshelf RealEstate Font"
+      title="Real Estate icon font"
       directory="profiles/default"
       description="Installs the fonts theme in the Plone site."
       provides="Products.GenericSetup.interfaces.EXTENSION"
@@ -16,7 +16,7 @@
 
   <genericsetup:registerProfile
       name="uninstall"
-      title="Propertyshelf RealEstate Font: Uninstall"
+      title="Real Estate icon font: Uninstall"
       directory="profiles/uninstall"
       description="Removes the fonts theme from the Plone site."
       provides="Products.GenericSetup.interfaces.EXTENSION"
@@ -27,7 +27,7 @@
   <!-- ========================== -->
   <genericsetup:importStep
       name="ps.plone.realestatefont-postInstall"
-      title="Propertyshelf RealEstate Font post_install import step"
+      title="Real Estate icon font post_install import step"
       description="Post install import step from ps.plone.realestatefont."
       handler=".setuphandlers.post_install">
   </genericsetup:importStep>

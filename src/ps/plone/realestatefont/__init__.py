@@ -5,13 +5,17 @@
 import logging
 
 # zope imports
-from zope.i18nmessageid import MessageFactory
+try:
+    from zope.i18nmessageid import MessageFactory
+except ImportError:
+    pass
+else:
+    _ = MessageFactory('ps.plone.realestatefont')
 
 # local imports
 from ps.plone.realestatefont import config
 
 logger = logging.getLogger(config.PROJECT_NAME)
-_ = MessageFactory('ps.plone.realestatefont')
 
 
 def initialize(context):
