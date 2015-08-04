@@ -12,10 +12,19 @@ long_description = ('\n'.join([
 
 install_requires = [
     'setuptools',
-    # -*- Extra requirements: -*-
+]
+
+plone_dependencies = [
     'plone.api',
     'z3c.jbot',
 ]
+
+test_dependencies = [
+    'plone.app.robotframework',
+    'plone.app.testing',
+    'robotframework-selenium2screenshots',
+]
+
 
 setup(
     name='ps.plone.realestatefont',
@@ -48,11 +57,8 @@ setup(
     include_package_data=True,
     zip_safe=False,
     extras_require=dict(
-        test=[
-            'plone.app.robotframework',
-            'plone.app.testing',
-            'robotframework-selenium2screenshots',
-        ],
+        plone=plone_dependencies,
+        test=test_dependencies,
     ),
     install_requires=install_requires,
     entry_points="""
