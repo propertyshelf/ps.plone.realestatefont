@@ -4,7 +4,7 @@
 from setuptools import setup, find_packages
 
 version = '0.3.dev2'
-description = 'RealEstate Font by propertyshelf'
+description = 'Real Estate icon font.'
 long_description = ('\n'.join([
     open('README.rst').read(),
     open('CHANGES.rst').read(),

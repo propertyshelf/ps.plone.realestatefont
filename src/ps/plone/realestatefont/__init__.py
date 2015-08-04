@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Propertyshelf RealEstate Font."""
+"""Real Estate icon font."""
 
 # python imports
 import logging
