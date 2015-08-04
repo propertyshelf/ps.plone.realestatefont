@@ -3,9 +3,6 @@ python:
   - 2.6
   - 2.7
 sudo: false
-cache:
-  directories:
-    - eggs
 env:
   - PLONE_VERSION=4.1
   - PLONE_VERSION=4.2
