@@ -111,7 +111,7 @@ Check the box next to ``ps.plone.realestatefont`` and click the 'Activate' butto
 
 The CSS classes will now prepend icons as defined in the list above.
 
-.. Note::
+.. note::
     You may have to empty your browser cache and save your resource registries
     in order to see the effects of the product installation.
 
