@@ -67,7 +67,7 @@
         }
       </style>
       <h1 i18n:translate="">Real Estate Icon Font</h1>
-      <ul class="glyphs css-mapping">
+      <ul class="glyphs css-mapping" id="font-preview">
         <li>
           <div class="icon icon_re-airport"></div>
           <input type="text" readonly="readonly" value="icon_re-airport" />
