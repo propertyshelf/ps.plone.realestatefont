@@ -53,41 +53,48 @@ Mostly Harmless
 Available CSS class options
 ---------------------------
 
+- icon_re-airport
+- icon_re-bank
 - icon_re-bar
 - icon_re-basketball
 - icon_re-bbq
 - icon_re-beach-club
 - icon_re-changing-room
 - icon_re-cinema
-- icon_re-airport
-- icon_re-bank
-- icon_re-gas-station
-- icon_re-hospital
-- icon_re-mall
 - icon_re-concierge
 - icon_re-equipment-rental
-- icon_re-rubbish
-- icon_re-restaurant
-- icon_re-property-management
-- icon_re-minimarket
-- icon_re-medical-facility
-- icon_re-laundry
-- icon_re-hotel
-- icon_re-helicopter
-- icon_re-heated-pool
-- icon_re-gym
-- icon_re-golf
+- icon_re-game-room
 - icon_re-garden
+- icon_re-gas-station
+- icon_re-golf
+- icon_re-gym
+- icon_re-heated-pool
+- icon_re-helicopter
+- icon_re-hospital
+- icon_re-hotel
+- icon_re-laundry
+- icon_re-mall
+- icon_re-medical-facility
+- icon_re-minimarket
+- icon_re-pool
+- icon_re-property-management
+- icon_re-restaurant
+- icon_re-rubbish
 - icon_re-security
 - icon_re-soccer
 - icon_re-spa
 - icon_re-stable
 - icon_re-storage
-- icon_re-pool
 - icon_re-tennis
 - icon_re-transportation
 - icon_re-volleyball
-- icon_re-game-room
+
+
+Preview
+-------
+
+.. image:: https://raw.githubusercontent.com/propertyshelf/ps.plone.realestatefont/master/docs/_images/preview_font.png
+    :alt: Real Estate Icon Font Preview
 
 
 Installation
