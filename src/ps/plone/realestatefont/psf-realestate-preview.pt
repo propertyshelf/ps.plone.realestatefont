@@ -1,0 +1,215 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="ps.plone.realestatefont"
+      tal:omit-tag="">
+  <head>
+    <metal:block fill-slot="top_slot" tal:define="dummy python:request.set('disable_border',1)" />
+  </head>
+
+  <body>
+    <metal:main fill-slot="main" >
+      <style type="text/css">
+        .glyphs.css-mapping {
+          margin: 0 0 60px 0;
+          padding: 30px 0 20px 30px;
+          color: rgba(0, 0, 0, 0.5);
+          border: 1px solid #d8e0e5;
+          -webkit-border-radius: 3px;
+          border-radius: 3px;
+          background-color: #eee;
+        }
+        #content .glyphs.css-mapping li {
+          margin: 0 30px 20px 0;
+          padding: 0;
+          display: inline-block;
+          overflow: hidden;
+        }
+        .glyphs.css-mapping .icon {
+          margin: 0;
+          margin-right: 10px;
+          padding: 13px;
+          height: 50px;
+          width: 50px;
+          color: #162a36 !important;
+          overflow: hidden;
+          float: left;
+          font-size: 4em;
+        }
+        .glyphs.css-mapping input{
+          margin: 0;
+          margin-top: 5px;
+          padding: 8px;
+          line-height: 16px;
+          font-size: 16px;
+          display: block;
+          width: 300px;
+          height: 40px;
+          border: 1px solid #d8e0e5;
+          -webkit-border-radius: 5px;
+          border-radius: 5px;
+          background: #fff;
+          outline: 0;
+          float: right;
+        }
+        .glyphs.css-mapping input:focus {
+          border: 1px solid #fbde4a;
+          -webkit-box-shadow: inset 0 0 3px #fbde4a;
+          box-shadow: inset 0 0 3px #fbde4a;
+        }
+        .glyphs.css-mapping input:hover {
+          -webkit-box-shadow: inset 0 0 3px #fbde4a;
+          box-shadow: inset 0 0 3px #fbde4a;
+        }
+      </style>
+      <h1>Real Estate Icon Font</h1>
+      <ul class="glyphs css-mapping">
+        <li>
+          <div class="icon icon_re-bar"></div>
+          <input type="text" readonly="readonly" value="icon_re-bar">
+        </li>
+        <li>
+          <div class="icon icon_re-basketball"></div>
+          <input type="text" readonly="readonly" value="icon_re-basketball">
+        </li>
+        <li>
+          <div class="icon icon_re-bbq"></div>
+          <input type="text" readonly="readonly" value="icon_re-bbq">
+        </li>
+        <li>
+          <div class="icon icon_re-beach-club"></div>
+          <input type="text" readonly="readonly" value="icon_re-beach-club">
+        </li>
+        <li>
+          <div class="icon icon_re-changing-room"></div>
+          <input type="text" readonly="readonly" value="icon_re-changing-room">
+        </li>
+        <li>
+          <div class="icon icon_re-cinema"></div>
+          <input type="text" readonly="readonly" value="icon_re-cinema">
+        </li>
+        <li>
+          <div class="icon icon_re-airport"></div>
+          <input type="text" readonly="readonly" value="icon_re-airport">
+        </li>
+        <li>
+          <div class="icon icon_re-bank"></div>
+          <input type="text" readonly="readonly" value="icon_re-bank">
+        </li>
+        <li>
+          <div class="icon icon_re-gas-station"></div>
+          <input type="text" readonly="readonly" value="icon_re-gas-station">
+        </li>
+        <li>
+          <div class="icon icon_re-hospital"></div>
+          <input type="text" readonly="readonly" value="icon_re-hospital">
+        </li>
+        <li>
+          <div class="icon icon_re-mall"></div>
+          <input type="text" readonly="readonly" value="icon_re-mall">
+        </li>
+        <li>
+          <div class="icon icon_re-concierge"></div>
+          <input type="text" readonly="readonly" value="icon_re-concierge">
+        </li>
+        <li>
+          <div class="icon icon_re-equipment-rental"></div>
+          <input type="text" readonly="readonly" value="icon_re-equipment-rental">
+        </li>
+        <li>
+          <div class="icon icon_re-rubbish"></div>
+          <input type="text" readonly="readonly" value="icon_re-rubbish">
+        </li>
+        <li>
+          <div class="icon icon_re-restaurant"></div>
+          <input type="text" readonly="readonly" value="icon_re-restaurant">
+        </li>
+        <li>
+          <div class="icon icon_re-property-management"></div>
+          <input type="text" readonly="readonly" value="icon_re-property-management">
+        </li>
+        <li>
+          <div class="icon icon_re-minimarket"></div>
+          <input type="text" readonly="readonly" value="icon_re-minimarket">
+        </li>
+        <li>
+          <div class="icon icon_re-medical-facility"></div>
+          <input type="text" readonly="readonly" value="icon_re-medical-facility">
+        </li>
+        <li>
+          <div class="icon icon_re-laundry"></div>
+          <input type="text" readonly="readonly" value="icon_re-laundry">
+        </li>
+        <li>
+          <div class="icon icon_re-hotel"></div>
+          <input type="text" readonly="readonly" value="icon_re-hotel">
+        </li>
+        <li>
+          <div class="icon icon_re-helicopter"></div>
+          <input type="text" readonly="readonly" value="icon_re-helicopter">
+        </li>
+        <li>
+          <div class="icon icon_re-heated-pool"></div>
+          <input type="text" readonly="readonly" value="icon_re-heated-pool">
+        </li>
+        <li>
+          <div class="icon icon_re-gym"></div>
+          <input type="text" readonly="readonly" value="icon_re-gym">
+        </li>
+        <li>
+          <div class="icon icon_re-golf"></div>
+          <input type="text" readonly="readonly" value="icon_re-golf">
+        </li>
+        <li>
+          <div class="icon icon_re-garden"></div>
+          <input type="text" readonly="readonly" value="icon_re-garden">
+        </li>
+        <li>
+          <div class="icon icon_re-security"></div>
+          <input type="text" readonly="readonly" value="icon_re-security">
+        </li>
+        <li>
+          <div class="icon icon_re-soccer"></div>
+          <input type="text" readonly="readonly" value="icon_re-soccer">
+        </li>
+        <li>
+          <div class="icon icon_re-spa"></div>
+          <input type="text" readonly="readonly" value="icon_re-spa">
+        </li>
+        <li>
+          <div class="icon icon_re-stable"></div>
+          <input type="text" readonly="readonly" value="icon_re-stable">
+        </li>
+        <li>
+          <div class="icon icon_re-storage"></div>
+          <input type="text" readonly="readonly" value="icon_re-storage">
+        </li>
+        <li>
+          <div class="icon icon_re-pool"></div>
+          <input type="text" readonly="readonly" value="icon_re-pool">
+        </li>
+        <li>
+          <div class="icon icon_re-tennis"></div>
+          <input type="text" readonly="readonly" value="icon_re-tennis">
+        </li>
+        <li>
+          <div class="icon icon_re-transportation"></div>
+          <input type="text" readonly="readonly" value="icon_re-transportation">
+        </li>
+        <li>
+          <div class="icon icon_re-volleyball"></div>
+          <input type="text" readonly="readonly" value="icon_re-volleyball">
+        </li>
+        <li>
+          <div class="icon icon_re-game-room"></div>
+          <input type="text" readonly="readonly" value="icon_re-game-room">
+        </li>
+      </ul>
+
+    </metal:main>
+  </body>
+</html>

@@ -20,4 +20,12 @@
       name="ps.plone.realestatefont"
       />
 
+  <browser:page
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      layer=".interfaces.IRealestatefontLayer"
+      name="psf-realestate-preview"
+      permission="zope2.View"
+      template="psf-realestate-preview.pt"
+      />
+
 </configure>
