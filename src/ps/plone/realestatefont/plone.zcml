@@ -20,16 +20,4 @@
       name="ps.plone.realestatefont"
       />
 
-  <!-- Register z3c.jbot template overrides. -->
-  <!-- ===================================== -->
-  <include
-      zcml:condition="installed z3c.jbot"
-      package="z3c.jbot"
-      />
-  <browser:jbot
-      zcml:condition="installed z3c.jbot"
-      directory="template_overrides"
-      layer=".interfaces.IRealestatefontLayer"
-      />
-
 </configure>

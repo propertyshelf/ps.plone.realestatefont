@@ -16,7 +16,6 @@ install_requires = [
 
 plone_dependencies = [
     'plone.api',
-    'z3c.jbot',
 ]
 
 test_dependencies = [
