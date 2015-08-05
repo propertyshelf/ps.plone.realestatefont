@@ -4,18 +4,18 @@ Changelog
 0.3 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Only load Plone configuration when we are working with Plone.
 
 
 0.2 (2015-07-30)
 ----------------
 
-- Nothing changed yet.
+- Renamed package to ps.plone.realestatefont.
 
 
 0.1 (2015-07-28)
 ----------------
 
-- alpha release
-- basic 35 character set for developments embedding
-- font-data added and automatic css-registration for Plone CMS
+- Added basic 35 character set.
+- Font-data added and automatic css-registration for Plone CMS.
+- Initial release.
