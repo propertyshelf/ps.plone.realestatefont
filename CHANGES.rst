@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.3 (unreleased)
+0.3 (2015-08-11)
 ----------------
 
 - Only load Plone configuration when we are working with Plone.
