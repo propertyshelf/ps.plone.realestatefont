@@ -5,7 +5,7 @@ from Products.Five import BrowserView
 from plone import api as ploneapi
 
 
-PLONE_5 = '4' < ploneapi.env.plone_version() < '6'
+PLONE_5 = '5' <= ploneapi.env.plone_version() < '6'
 
 
 class FontPreview(BrowserView):
