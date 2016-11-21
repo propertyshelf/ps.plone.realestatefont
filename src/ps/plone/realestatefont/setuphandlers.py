@@ -1,15 +1,18 @@
 # -*- coding: utf-8 -*-
 """Post install import steps for ps.plone.realestatefont."""
 
-
-def is_not_current_profile(context):
-    return context.readDataFile(
-        'psplonerealestatefont_marker.txt'
-    ) is None
+# zope imports
+from Products.CMFPlone.interfaces import INonInstallable
+from zope.interface import implementer
 
 
-def post_install(context):
-    """Post install script."""
-    if is_not_current_profile(context):
-        return
-    # Do something during the installation of this package
+@implementer(INonInstallable)
+class HiddenProfiles(object):
+
+    def getNonInstallableProfiles(self):
+        """Hide uninstall profile from site-creation and quickinstaller."""
+        return [
+            'ps.plone.realestatefont:install-base',
+            'ps.plone.realestatefont:uninstall',
+            'ps.plone.realestatefont:uninstall-base',
+        ]

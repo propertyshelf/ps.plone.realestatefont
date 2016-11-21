@@ -81,4 +81,12 @@
       />
   -->
 
+
+  <!-- GenericSetup utilities. -->
+  <!-- ======================= -->
+  <utility
+      factory=".setuphandlers.HiddenProfiles"
+      name="ps.plone.realestatefont-hiddenprofiles"
+      />
+
 </configure>
