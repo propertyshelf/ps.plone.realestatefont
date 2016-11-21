@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.4 (unreleased)
+0.4 (2016-11-21)
 ----------------
 
 - Add Plone 5 compatibility.
