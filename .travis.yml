@@ -11,6 +11,7 @@ env:
   - PLONE_VERSION=4.2
   - PLONE_VERSION=4.3
   - PLONE_VERSION=5.0
+  - PLONE_VERSION=5.1
 matrix:
   exclude:
     - python: 2.7
@@ -21,8 +22,8 @@ matrix:
       env: PLONE_VERSION=4.3
     - python: 2.6
       env: PLONE_VERSION=5.0
-  allow_failures:
-    - env: PLONE_VERSION=5.0
+    - python: 2.6
+      env: PLONE_VERSION=5.1
   fast_finish: true
 install:
   - sed -ie "s#travis-4.x.cfg#travis-$PLONE_VERSION.x.cfg#" travis.cfg
@@ -32,12 +33,15 @@ install:
   - pip install zc.buildout
   - buildout -c travis.cfg annotate
   - buildout -c travis.cfg -N -q
+branches:
+  only:
+    - master
 before_script:
-  - export DISPLAY=:99.0
-  - sh -e /etc/init.d/xvfb start
-  - firefox -v
+  - "export DISPLAY=:99.0"
+  - "sh -e /etc/init.d/xvfb start"
 script:
   - bin/code-analysis
   - bin/test
 notifications:
-  irc: irc.freenode.org#propertyshelf
+  hipchat:
+    secure: "xfYh++CFNWR/Cm+sIobksI5x6O7O5+P7Bv8TqTT55i5fyr8rICEehi8hdtZY13VFIPOopJz64TcvZNDuh+9hipJtq5uYQ+3n88JIK+KBs3Pt7DtsxM10i/tRyS+IJ/gckNpvvUT024R37FSzX7MPMf19iIune9fQsffhgd8W2ryQtd1fizmnBH5WALlOki15j+O05RMsuy0m52/ngcTd/t5tlUpxQ66599hxKes6j/vLxE031RWuqvvn908BlRNTP1Cm7KMQtmxELGWP2BjabGDMRE3bNmzQDWcqPtS2hK4wOjIZTqg3WXuU/ndhoPh4aacolVLeqVPWasbWGa1QjzNTLg4UouRfcIN9Hqfvxk47D1O9CgWDPfcSOb383mipTo6h/vPA6hWrxXiedPUnM9zwAiaGyVoMv2VhwwP/jmsGM7Ng0ox4B/9flWk3s+Q6AnfSX2hkl1eAGqScoE7Lu0NqGRNwnkOPq81A6ZYUFZ9/ZZPfKB4AR5a9hTE7yzY0IZ8Y5Pwx2FcTnZFc9slzFasFSVLZbPBj6gv36ebI6iqMBB7i6QTf8Ck7IYhnr6lMnGU0/r56q/s2yHlku0jHPplh314/zgqO9GHo3l8sixEFVWbXu2awF79owV/ZE6YAiCi4WjmUismLKMK9ET/PSBE4hrw+5lDTMuvtzB/Tuuo="
