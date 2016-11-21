@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 # zope imports
-from Products.CMFPlone.resources import add_resource_on_request
 from Products.Five import BrowserView
 from plone import api as ploneapi
 
@@ -18,4 +17,5 @@ class FontPreview(BrowserView):
 
     def setup(self):
         if PLONE_5:
+            from Products.CMFPlone.resources import add_resource_on_request
             add_resource_on_request(self.request, 'psplonerealestatefont')
