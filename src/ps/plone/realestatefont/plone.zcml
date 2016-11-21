@@ -24,9 +24,9 @@
       class=".plone_views.FontPreview"
       for="Products.CMFPlone.interfaces.IPloneSiteRoot"
       layer=".interfaces.IRealestatefontLayer"
-      name="psf-realestate-preview"
+      name="psplonerealestate-preview"
       permission="zope2.View"
-      template="psf-realestate-preview.pt"
+      template="psplonerealestate-preview.pt"
       />
 
 </configure>
