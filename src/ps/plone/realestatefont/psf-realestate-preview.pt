@@ -17,14 +17,13 @@
         .glyphs.css-mapping {
           margin: 0 0 60px 0;
           padding: 30px 0 20px 30px;
-          color: rgba(0, 0, 0, 0.5);
           border: 1px solid #d8e0e5;
           -webkit-border-radius: 3px;
           border-radius: 3px;
           background-color: #eee;
         }
         #content .glyphs.css-mapping li {
-          margin: 0 30px 20px 0;
+          margin: 0 20px 20px 0;
           padding: 0;
           display: inline-block;
           overflow: hidden;
@@ -32,10 +31,8 @@
         .glyphs.css-mapping .icon {
           margin: 0;
           margin-right: 10px;
-          padding: 13px;
-          height: 50px;
-          width: 50px;
-          color: #162a36 !important;
+          height: 59px;
+          width: 57px;
           overflow: hidden;
           float: left;
           font-size: 4em;
@@ -66,7 +63,7 @@
           box-shadow: inset 0 0 3px #fbde4a;
         }
       </style>
-      <h1 i18n:translate="">Real Estate Icon Font</h1>
+      <h1 i18n:translate="">Real Estate Icon Font Preview</h1>
       <ul class="glyphs css-mapping" id="font-preview">
         <li>
           <div class="icon icon_re-airport"></div>
