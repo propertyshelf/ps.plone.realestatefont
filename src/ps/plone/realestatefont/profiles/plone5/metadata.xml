@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<metadata>
+  <version>1000</version>
+  <dependencies>
+    <dependency>profile-ps.plone.realestatefont:install-base</dependency>
+  </dependencies>
+</metadata>
