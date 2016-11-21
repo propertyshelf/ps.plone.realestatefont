@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<registry>
+  <records
+      prefix="plone.resources/psplonerealestatefont"
+      interface="Products.CMFPlone.interfaces.IResourceRegistry">
+    <value key="css">
+      <element>++resource++ps.plone.realestatefont/styles.css</element>
+    </value>
+  </records>
+</registry>
