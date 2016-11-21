@@ -37,7 +37,7 @@
       title="ps.plone.realestatefont"
       />
 
-   <!-- Uninstall: base. -->
+  <!-- Uninstall: base. -->
   <genericsetup:registerProfile
       description="ps.plone.realestatefont base uninstall profile."
       directory="profiles/uninstall-base"
