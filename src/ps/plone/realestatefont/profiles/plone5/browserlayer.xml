@@ -2,7 +2,6 @@
 <layers>
   <layer
       name="ps.plone.realestatefont"
-      interface="ps.plone.realestatefont.interfaces.IIRealestatefontLayer"
-      remove="True"
+      interface="ps.plone.realestatefont.interfaces.IRealestatefontLayer"
       />
 </layers>

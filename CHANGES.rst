@@ -4,7 +4,7 @@ Changelog
 0.4 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Add Plone 5 compatibility.
 
 
 0.3 (2015-08-11)

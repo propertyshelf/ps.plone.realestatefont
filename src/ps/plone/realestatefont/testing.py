@@ -14,7 +14,6 @@ from plone.testing import (
     Layer,
     z2,
 )
-from zope.configuration import xmlconfig
 
 
 class PsPloneRealestatefontLayer(PloneSandboxLayer):
@@ -25,11 +24,7 @@ class PsPloneRealestatefontLayer(PloneSandboxLayer):
         """Set up Zope for testing."""
         # Load ZCML
         import ps.plone.realestatefont
-        xmlconfig.file(
-            'configure.zcml',
-            ps.plone.realestatefont,
-            context=configurationContext
-        )
+        self.loadZCML(package=ps.plone.realestatefont)
 
     def setUpPloneSite(self, portal):
         applyProfile(portal, 'ps.plone.realestatefont:default')
