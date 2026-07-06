@@ -29,15 +29,15 @@ Mostly Harmless
     :target: http://badge.fury.io/gh/propertyshelf%2Fps.plone.realestatefont
     :alt: Fury Github
 
-.. image:: https://pypip.in/d/ps.plone.realestatefont/badge.png
+.. image:: https://img.shields.io/pypi/dm/ps.plone.realestatefont.svg
     :target: https://pypi.python.org/pypi/ps.plone.realestatefont/
     :alt: Downloads
 
-.. image:: https://pypip.in/v/ps.plone.realestatefont/badge.png
+.. image:: https://img.shields.io/pypi/v/ps.plone.realestatefont.svg
     :target: https://pypi.python.org/pypi/ps.plone.realestatefont/
     :alt: Latest Version
 
-.. image:: https://pypip.in/wheel/ps.plone.realestatefont/badge.png
+.. image:: https://img.shields.io/pypi/wheel/ps.plone.realestatefont.svg
     :target: https://pypi.python.org/pypi/ps.plone.realestatefont/
     :alt: Wheel Status
 
@@ -45,7 +45,7 @@ Mostly Harmless
     :target: https://pypi.python.org/pypi/ps.plone.realestatefont/
     :alt: Egg Status
 
-.. image:: https://pypip.in/license/ps.plone.realestatefont/badge.png
+.. image:: https://img.shields.io/pypi/l/ps.plone.realestatefont.svg
     :target: https://pypi.python.org/pypi/ps.plone.realestatefont/
     :alt: License
 
